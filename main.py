@@ -66,15 +66,11 @@ def GameLoop():
                 else:
                     if(center[0]>300):
                         print("right")
-                        xr =xr+5
+                        xr =xr+10
                     elif(center[0]<300):
                         print("left")
-                        xr-=5
-                    if(center[1]<300):
-                        print("Top")
-                        
-                    elif(center[1]>300):
-                        print("Down")
+                        xr-=10
+                  
                     else:
                         print("stop")            
         #xr = pyautogui.position()[0] 

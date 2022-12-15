@@ -46,7 +46,7 @@ class handTracker():
             image = tracker.handsFinder(image)
             lmList = tracker.positionFinder(image)
             if len(lmList) != 0:
-                print(lmList[4])
+                print(lmList[16])
 
             cv2.imshow("Video",image)
             cv2.waitKey(1)

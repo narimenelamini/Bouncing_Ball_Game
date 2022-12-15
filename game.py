@@ -100,6 +100,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Vision Game Luncher"))
         self.label_2.setText(_translate("MainWindow", "Bouncing Ball"))
+        
         self.label_3.setText(_translate("MainWindow", "Difficulty"))
         self.comboBox.setItemText(2, _translate("MainWindow", "Easy"))
         self.comboBox.setItemText(1, _translate("MainWindow", "Medium"))
